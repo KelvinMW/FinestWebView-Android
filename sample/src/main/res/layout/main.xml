@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_alignParentBottom="true"
-    android:background="@color/finestWhite"
+    android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM SECONDARY SCHOOL"
     android:textColor="@color/finestBlack"/>
@@ -19,7 +19,7 @@
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_alignParentBottom="true"
-    android:background="@color/redPrimary"
+    android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM SCIENCE SECONDARY SCHOOL"
     android:textColor="@color/finestWhite"/>
@@ -39,7 +39,7 @@
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_alignParentBottom="true"
-    android:background="@color/blackPrimary"
+    android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM LOWER PRIMARY"
     android:textColor="@color/finestWhite"/>
@@ -49,7 +49,7 @@
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_alignParentBottom="true"
-    android:background="@color/blackPrimary"
+    android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM KINDERGARTEN SCHOOL"
     android:textColor="@color/finestWhite"/>
