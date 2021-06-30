@@ -15,19 +15,19 @@ public class MainActivity extends AppCompatActivity {
   }
 
   public void onClick(View view) {
-    if (view.getId() == R.id.defaultTheme) {
-      new FinestWebView(this).titleDefault("The Finest Artist").show("http://thefinestartist.com");
+    if (view.getId() == R.id.ELMSecondary) {
+      new FinestWebView(this).titleDefault("ELM SECONDARY SCHOOL").show("https://secondary.elmischools.com");
       ////                    .toolbarScrollFlags(0)
       //                    .webViewJavaScriptEnabled(true)
       //                    .webViewUseWideViewPort(false)
       ////                    .show("http://andrewliu.in/2016/01/30/聊聊Redis的订阅发布/");
       //                    .show("http://www.youtube.com");
-    } else if (view.getId() == R.id.redTheme) {
+    } else if (view.getId() == R.id.ELMscienceSecondary) {
       //            Intent intent = new Intent(this, WebViewActivity.class);
       //            startActivity(intent);
       new FinestWebView(this)
-          .theme(R.style.RedTheme)
-          .titleDefault("Bless This Stuff")
+          .theme(R.style.ELMscienceSecondary)
+          .titleDefault("ELM SCIENCE SECONDARY SCHOOL")
           .webViewBuiltInZoomControls(true)
           .webViewDisplayZoomControls(true)
           .dividerHeight(0)
@@ -41,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
               "javascript: document.getElementById('msg').innerHTML='Hello "
                   + "TheFinestArtist"
                   + "!';")
-          .show("http://www.blessthisstuff.com");
-    } else if (view.getId() == R.id.blueTheme) {
+          .show("https://science-secondary.elmischools.com");
+    } else if (view.getId() == R.id.ELMupper) {
       new FinestWebView(this)
           .theme(R.style.FinestWebViewTheme)
-          .titleDefault("Vimeo")
+          .titleDefault("ELM UPPER PRIMARY SCHOOL")
           .showUrl(false)
           .statusBarColorRes(R.color.bluePrimaryDark)
           .toolbarColorRes(R.color.bluePrimary)
@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
           .dividerHeight(0)
           .gradientDivider(false)
           .setCustomAnimations(R.anim.slide_up, R.anim.hold, R.anim.hold, R.anim.slide_down)
-          .show("http://example.com");
-    } else if (view.getId() == R.id.blackTheme) {
+          .show("https://upper-p.elmischools.com");
+    } else if (view.getId() == R.id.ELMlower) {
       new FinestWebView(this)
           .theme(R.style.FinestWebViewTheme)
-          .titleDefault("Dribbble")
+          .titleDefault("ELM LOWER PRIMARY SCHOOL")
           .toolbarScrollFlags(0)
           .statusBarColorRes(R.color.blackPrimaryDark)
           .toolbarColorRes(R.color.blackPrimary)
@@ -94,7 +94,30 @@ public class MainActivity extends AppCompatActivity {
           .disableIconClose(true)
           .disableIconForward(true)
           .disableIconMenu(true)
-          .show("https://dribbble.com");
+          .show("https://lower-p.elmischools.com");
+        } else if (view.getId() == R.id.ELMkg) {
+          new FinestWebView(this)
+              .theme(R.style.FinestWebViewTheme)
+              .titleDefault("ELM KINDERGARTEN SCHOOL")
+              .showUrl(false)
+              .statusBarColorRes(R.color.bluePrimaryDark)
+              .toolbarColorRes(R.color.bluePrimary)
+              .titleColorRes(R.color.finestWhite)
+              .urlColorRes(R.color.bluePrimaryLight)
+              .iconDefaultColorRes(R.color.finestWhite)
+              .progressBarColorRes(R.color.finestWhite)
+              .stringResCopiedToClipboard(R.string.copied_to_clipboard)
+              .stringResCopiedToClipboard(R.string.copied_to_clipboard)
+              .stringResCopiedToClipboard(R.string.copied_to_clipboard)
+              .showSwipeRefreshLayout(true)
+              .swipeRefreshColorRes(R.color.bluePrimaryDark)
+              .menuSelector(R.drawable.selector_light_theme)
+              .menuTextGravity(Gravity.CENTER)
+              .menuTextPaddingRightRes(R.dimen.defaultMenuTextPaddingLeft)
+              .dividerHeight(0)
+              .gradientDivider(false)
+              .setCustomAnimations(R.anim.slide_up, R.anim.hold, R.anim.hold, R.anim.slide_down)
+              .show("https://kg.elmischools.com");
     }
   }
 }
