@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
     } else if (view.getId() == R.id.ELMnewH) {
       new FinestWebView(this)
               .theme(R.style.FinestWebViewTheme)
-              .titleDefault("ELM KINDERGARTEN SCHOOL")
+              .titleDefault("ELM SCHOOL NEW HARGEISA")
               .showUrl(false)
               .statusBarColorRes(R.color.bluePrimaryDark)
               .toolbarColorRes(R.color.bluePrimary)

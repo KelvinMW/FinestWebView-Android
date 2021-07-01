@@ -3,7 +3,31 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/bluePrimary"
+      android:text="ELM INTERNATIONAL SCHOOLS"
+      android:textColor="@color/finestWhite"
+      android:textStyle="bold"
+      android:layout_alignParentBottom="true"
+      android:textAlignment="center"
+      android:gravity="center_horizontal"
+      android:layout_margin="@dimen/defaultDividerHeight"
+      />
 
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:src="@drawable/ic_launcher"
+      android:scaleType="fitCenter"
+      />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="welcome, kindly select a section :"
+    />
   <Button
     android:id="@+id/ELMSecondary"
     android:layout_width="match_parent"
@@ -12,7 +36,9 @@
     android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM SECONDARY SCHOOL"
-    android:textColor="@color/finestBlack"/>
+    android:textColor="@color/finestWhite"
+    android:layout_margin="@dimen/defaultDividerHeight"/>
+
 
   <Button
     android:id="@+id/ELMscienceSecondary"
@@ -22,7 +48,8 @@
     android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM SCIENCE SECONDARY SCHOOL"
-    android:textColor="@color/finestWhite"/>
+    android:textColor="@color/finestWhite"
+    android:layout_margin="@dimen/defaultDividerHeight"/>
 
   <Button
     android:id="@+id/ELMupper"
@@ -32,7 +59,8 @@
     android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM UPPER PRIMARY SCHOOL"
-    android:textColor="@color/finestWhite"/>
+    android:textColor="@color/finestWhite"
+    android:layout_margin="@dimen/defaultDividerHeight"/>
 
   <Button
     android:id="@+id/ELMlower"
@@ -42,7 +70,8 @@
     android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM LOWER PRIMARY"
-    android:textColor="@color/finestWhite"/>
+    android:textColor="@color/finestWhite"
+    android:layout_margin="@dimen/defaultDividerHeight"/>
 
   <Button
     android:id="@+id/ELMkg"
@@ -52,7 +81,9 @@
     android:background="@color/bluePrimary"
     android:onClick="onClick"
     android:text="ELM KINDERGARTEN SCHOOL"
-    android:textColor="@color/finestWhite"/>
+    android:textColor="@color/finestWhite"
+    android:layout_margin="@dimen/defaultDividerHeight"
+    />
   <Button
       android:id="@+id/ELMnewH"
       android:layout_width="match_parent"
@@ -60,7 +91,9 @@
       android:layout_alignParentBottom="true"
       android:background="@color/bluePrimary"
       android:onClick="onClick"
-      android:text="ELM KINDERGARTEN SCHOOL"
-      android:textColor="@color/finestWhite"/>
+      android:text="ELM SCHOOL NEW HARGEISA"
+      android:textColor="@color/finestWhite"
+      android:layout_margin="@dimen/defaultDividerHeight" />
+
 
 </LinearLayout>
