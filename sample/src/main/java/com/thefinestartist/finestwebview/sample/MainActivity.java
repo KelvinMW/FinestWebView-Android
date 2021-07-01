@@ -135,6 +135,29 @@ public class MainActivity extends AppCompatActivity {
               .gradientDivider(false)
               .setCustomAnimations(R.anim.slide_up, R.anim.hold, R.anim.hold, R.anim.slide_down)
               .show("https://kg.elmischools.com");
+    } else if (view.getId() == R.id.ELMnewH) {
+      new FinestWebView(this)
+              .theme(R.style.FinestWebViewTheme)
+              .titleDefault("ELM KINDERGARTEN SCHOOL")
+              .showUrl(false)
+              .statusBarColorRes(R.color.bluePrimaryDark)
+              .toolbarColorRes(R.color.bluePrimary)
+              .titleColorRes(R.color.finestWhite)
+              .urlColorRes(R.color.bluePrimaryLight)
+              .iconDefaultColorRes(R.color.finestWhite)
+              .progressBarColorRes(R.color.finestWhite)
+              .stringResCopiedToClipboard(R.string.copied_to_clipboard)
+              .stringResCopiedToClipboard(R.string.copied_to_clipboard)
+              .stringResCopiedToClipboard(R.string.copied_to_clipboard)
+              .showSwipeRefreshLayout(true)
+              .swipeRefreshColorRes(R.color.bluePrimaryDark)
+              .menuSelector(R.drawable.selector_light_theme)
+              .menuTextGravity(Gravity.CENTER)
+              .menuTextPaddingRightRes(R.dimen.defaultMenuTextPaddingLeft)
+              .dividerHeight(0)
+              .gradientDivider(false)
+              .setCustomAnimations(R.anim.slide_up, R.anim.hold, R.anim.hold, R.anim.slide_down)
+              .show("https://new-h.elmischools.com");
     }
   }
 }
